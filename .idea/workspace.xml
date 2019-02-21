@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UrlContentReaderImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UrlContentReaderImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/implementations/UrlContentReaderImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+            <state relative-caret-position="260">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DemoMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/DemoMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +96,8 @@
         <option value="$PROJECT_DIR$/src/main/java/UrlContentReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/implementations/UrlContentReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/interfaces/UrlContentReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/implementations/UrlContentReaderImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/DemoMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/implementations/UrlContentReaderImpl.java" />
       </list>
     </option>
   </component>
@@ -179,8 +179,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jcabi-github/pom.xml" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -382,20 +382,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/UrlContentReaderImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/DemoMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        <state relative-caret-position="192">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/DemoMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementations/UrlContentReaderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="260">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
