@@ -2,8 +2,8 @@ package implementations;
 
 import interfaces.UrlContentReader;
 
+import javax.net.ssl.HttpsURLConnection;
 import java.io.*;
-import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class UrlContentReaderImpl implements UrlContentReader
@@ -18,7 +18,7 @@ public class UrlContentReaderImpl implements UrlContentReader
         try
         {
             URL url = new URL(urlString);
-            HttpURLConnection con = (HttpURLConnection) url.openConnection();
+            HttpsURLConnection con = (HttpsURLConnection) url.openConnection();
             InputStream in = con.getInputStream();
             String encoding = con.getContentEncoding();  // ** WRONG: should use "con.getContentType()" instead but it returns something like "text/html; charset=UTF-8" so this value must be parsed to extract the actual encoding
             encoding = encoding == null ? "UTF-8" : encoding;
