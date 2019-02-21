@@ -1,16 +1,17 @@
 package implementations;
 
+import interfaces.UrlContentReader;
 import sun.misc.IOUtils;
 
 import java.io.*;
 import java.net.URL;
 import java.net.URLConnection;
 
-public class UrlContentReader
+public class UrlContentReaderImpl implements UrlContentReader
 {
     private String content = "";
 
-    public UrlContentReader()
+    public UrlContentReaderImpl()
     {}
 
     public String urlRead(String urlString)

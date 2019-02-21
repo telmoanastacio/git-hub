@@ -1,7 +1,8 @@
 package demo;
 
-import implementations.UrlContentReader;
+import implementations.UrlContentReaderImpl;
 import implementations.UrlPathGeneratorImpl;
+import interfaces.UrlContentReader;
 import interfaces.UrlPathGenerator;
 
 public class DemoMain
@@ -9,8 +10,8 @@ public class DemoMain
     public static void main(String[] args)
     {
         UrlPathGenerator urlPathGenerator = new UrlPathGeneratorImpl();
-        UrlContentReader userContent = new UrlContentReader();
-        UrlContentReader fileContent = new UrlContentReader();
+        UrlContentReader userContent = new UrlContentReaderImpl();
+        UrlContentReader fileContent = new UrlContentReaderImpl();
 
         System.out.println(urlPathGenerator.getUserInfoUrl(DemoData.USER));
         System.out.println(urlPathGenerator.getUserRepositoryListUrl(DemoData.USER));
