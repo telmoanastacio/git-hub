@@ -28,6 +28,7 @@ public class UrlContentReaderImpl implements UrlContentReader
             }
             this.content = new String(baos.toByteArray(), encoding);
             in.close();
+            // Todo: implement isUrlRead()
         }
         // MalformedURLException contained in IOException
         catch(IOException e)

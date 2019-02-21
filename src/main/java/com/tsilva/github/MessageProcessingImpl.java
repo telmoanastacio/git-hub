@@ -22,4 +22,9 @@ public class MessageProcessingImpl
             System.out.println("== parsing exception ==");
         }
     }
+
+    public String getEmail()
+    {
+        return this.jsonObject.getString("email");
+    }
 }

@@ -1,9 +1,6 @@
 package com.tsilva.github.demo;
 
-import com.tsilva.github.UrlContentReader;
-import com.tsilva.github.UrlContentReaderImpl;
-import com.tsilva.github.UrlPathGenerator;
-import com.tsilva.github.UrlPathGeneratorImpl;
+import com.tsilva.github.*;
 
 public class DemoMain
 {
@@ -25,5 +22,7 @@ public class DemoMain
         // print file content
         System.out.println(fileContent
                 .urlRead(urlPathGenerator.getRepositoryFileContentURL(DemoData.OWNER, DemoData.REPO, DemoData.FILE)));
+
+        System.out.println(new MessageProcessingImpl(userContent.urlRead(urlPathGenerator.getUserInfoUrl(DemoData.USER))));
     }
 }
