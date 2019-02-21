@@ -1,6 +1,4 @@
-package implementations;
-
-import interfaces.UrlContentReader;
+package com.tsilva.github;
 
 import javax.net.ssl.HttpsURLConnection;
 import java.io.*;

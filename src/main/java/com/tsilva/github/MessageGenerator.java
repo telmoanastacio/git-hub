@@ -1,4 +1,4 @@
-package interfaces;
+package com.tsilva.github;
 
 public interface MessageGenerator
 {

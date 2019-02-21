@@ -1,9 +1,9 @@
-package demo;
+package com.tsilva.github.demo;
 
-import implementations.UrlContentReaderImpl;
-import implementations.UrlPathGeneratorImpl;
-import interfaces.UrlContentReader;
-import interfaces.UrlPathGenerator;
+import com.tsilva.github.UrlContentReader;
+import com.tsilva.github.UrlContentReaderImpl;
+import com.tsilva.github.UrlPathGenerator;
+import com.tsilva.github.UrlPathGeneratorImpl;
 
 public class DemoMain
 {

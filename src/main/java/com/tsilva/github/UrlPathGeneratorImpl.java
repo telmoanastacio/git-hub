@@ -1,6 +1,4 @@
-package implementations;
-
-import interfaces.UrlPathGenerator;
+package com.tsilva.github;
 
 public class UrlPathGeneratorImpl implements UrlPathGenerator
 {

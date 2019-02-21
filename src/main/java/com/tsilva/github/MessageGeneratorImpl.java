@@ -1,6 +1,4 @@
-package implementations;
-
-import interfaces.MessageGenerator;
+package com.tsilva.github;
 
 import java.util.HashMap;
 import java.util.List;

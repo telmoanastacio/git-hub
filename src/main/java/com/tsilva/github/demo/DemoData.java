@@ -1,4 +1,4 @@
-package demo;
+package com.tsilva.github.demo;
 
 public class DemoData
 {
