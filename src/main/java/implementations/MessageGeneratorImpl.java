@@ -1,3 +1,7 @@
+package implementations;
+
+import interfaces.MessageGenerator;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -45,6 +49,11 @@ public class MessageGeneratorImpl implements MessageGenerator
 
         sb.append("=============================\n");
         sb.append("=============================\n");
+
+        this.email = null;
+        this.allRepositories = null;
+        this.overallLangStats = null;
+
         return sb.toString();
     }
 }
