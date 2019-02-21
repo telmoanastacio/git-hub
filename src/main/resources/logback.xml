@@ -5,7 +5,7 @@
         </encoder>
     </appender>
 
-    <logger name="tsilva" level="DEBUG" />
+    <logger name="org.tsilva" level="DEBUG" />
     <logger name="org.springframework" level="DEBUG" />
 
     <root level="INFO">
