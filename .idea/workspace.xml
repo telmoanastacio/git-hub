@@ -4,8 +4,6 @@
     <list default="true" id="b7a03a02-f386-4f4e-8ffb-a437fc09dc30" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tsilva/github/MessageProcessingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsilva/github/MessageProcessingImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tsilva/github/demo/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsilva/github/demo/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tsilva/github/UrlContentReaderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsilva/github/UrlContentReaderImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tsilva/github/demo/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tsilva/github/demo/DemoMain.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,24 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageProcessingImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MessageProcessingImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tsilva/github/MessageProcessingImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-              <folding>
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="413">
+              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoMain.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DemoMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tsilva/github/demo/DemoMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="510">
+              <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -125,8 +119,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tsilva/github/MessageGeneratorImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tsilva/github/demo/DemoMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tsilva/github/MessageProcessingImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tsilva/github/demo/DemoMain.java" />
       </list>
     </option>
   </component>
@@ -450,10 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-          <folding>
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -545,10 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-          <folding>
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -614,16 +600,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tsilva/github/implementations/UrlPathGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tsilva/github/UrlContentReaderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tsilva/github/UrlContentReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -653,21 +629,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tsilva/github/demo/DemoMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tsilva/github/UrlContentReaderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="612">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tsilva/github/MessageProcessingImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-          <folding>
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="413">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tsilva/github/demo/DemoMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
         </state>
       </provider>
     </entry>
