@@ -7,7 +7,9 @@ public class DemoMain
     public static void main(String[] args)
     {
         UrlPathGenerator urlPathGenerator = new UrlPathGeneratorImpl();
+
         UrlContentReader userContent = new UrlContentReaderImpl();
+        UrlContentReader userReposContent = new UrlContentReaderImpl();
         UrlContentReader repoContent = new UrlContentReaderImpl();
         UrlContentReader fileContent = new UrlContentReaderImpl();
 
@@ -27,7 +29,10 @@ public class DemoMain
         String userResult = userContent.urlRead(urlPathGenerator.getUserInfoUrl(DemoData.USER));
         System.out.println(new MessageProcessingImpl(userResult).getEmail());
 
-        String userRepos = repoContent.urlRead(urlPathGenerator.getUserRepositoryListUrl(DemoData.USER));
+        String userRepos = userReposContent.urlRead(urlPathGenerator.getUserRepositoryListUrl(DemoData.USER));
         System.out.println(new MessageProcessingImpl(userRepos).getRepos());
+
+        String repoResult = repoContent.urlRead(urlPathGenerator.getRepositoryLanguageStatisticsUrl(DemoData.OWNER, DemoData.REPO));
+        System.out.println(new MessageProcessingImpl(repoResult).getStatistics());
     }
 }

@@ -4,9 +4,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class MessageProcessingImpl
 {
@@ -58,8 +56,42 @@ public class MessageProcessingImpl
         }
     }
 
-    public Map<String, Double> getOverallStatistics()
+    public Map<String, Integer> getStatistics()
     {
-        return null;
+        Map<String, Integer> stats = new LinkedHashMap<>();
+        Set<String> keys;
+        Integer value = -1;
+        try
+        {
+            JSONObject jsonObject = new JSONObject(this.JSON_STRING);
+            keys = jsonObject.keySet();
+            for(String key : keys)
+            {
+                value = jsonObject.getInt(key);
+                stats.put(key, value);
+            }
+            return sortByValue(stats);
+        }
+        catch(JSONException e)
+        {
+            e.printStackTrace();
+            System.out.println("== parsing exception ==");
+            return null;
+        }
+    }
+
+    private static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(Map<K, V> map)
+    {
+        List<Map.Entry<K, V>> list = new ArrayList<>(map.entrySet());
+        list.sort(Map.Entry.comparingByValue());
+
+        Map<K, V> result = new LinkedHashMap<>();
+        for(int i = list.size() - 1; i >= 0; i-- ) /*(Map.Entry<K, V> entry : list)*/
+        {
+            Map.Entry<K, V> entry = list.get(i);
+            result.put(entry.getKey(), entry.getValue());
+        }
+
+        return result;
     }
 }
