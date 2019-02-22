@@ -70,7 +70,7 @@ public class MessageProcessingImpl
                 value = jsonObject.getInt(key);
                 stats.put(key, value);
             }
-            return sortByValue(stats);
+            return stats;
         }
         catch(JSONException e)
         {
@@ -80,6 +80,7 @@ public class MessageProcessingImpl
         }
     }
 
+    // sort only the global statistics
     private static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(Map<K, V> map)
     {
         List<Map.Entry<K, V>> list = new ArrayList<>(map.entrySet());
