@@ -25,6 +25,6 @@ public class MessageProcessingImpl
 
     public String getEmail()
     {
-        return this.jsonObject.getString("email");
+        return this.jsonObject.get("email").toString();
     }
 }

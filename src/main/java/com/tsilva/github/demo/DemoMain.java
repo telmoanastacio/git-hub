@@ -16,13 +16,14 @@ public class DemoMain
         System.out.println(urlPathGenerator.getRepositoryContentListURL(DemoData.OWNER, DemoData.REPO));
         System.out.println(urlPathGenerator.getRepositoryFileContentURL(DemoData.OWNER, DemoData.REPO, DemoData.FILE));
 
-        // print user content
-        System.out.println(userContent.urlRead(urlPathGenerator.getUserInfoUrl(DemoData.USER)));
-        userContent = null;
-        // print file content
-        System.out.println(fileContent
-                .urlRead(urlPathGenerator.getRepositoryFileContentURL(DemoData.OWNER, DemoData.REPO, DemoData.FILE)));
+//        // print user content
+//        System.out.println(userContent.urlRead(urlPathGenerator.getUserInfoUrl(DemoData.USER)));
+//        userContent = null;
+//        // print file content
+//        System.out.println(fileContent
+//                .urlRead(urlPathGenerator.getRepositoryFileContentURL(DemoData.OWNER, DemoData.REPO, DemoData.FILE)));
 
-        System.out.println(new MessageProcessingImpl(userContent.urlRead(urlPathGenerator.getUserInfoUrl(DemoData.USER))));
+        String userResult = userContent.urlRead(urlPathGenerator.getUserInfoUrl(DemoData.USER));
+        System.out.println(new MessageProcessingImpl(userResult).getEmail());
     }
 }
