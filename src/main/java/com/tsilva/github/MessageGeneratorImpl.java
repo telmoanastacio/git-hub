@@ -13,7 +13,8 @@ public class MessageGeneratorImpl implements MessageGenerator
     private Map<String, Double> overallLangStats;
 
     // == constructors ==
-    public MessageGeneratorImpl(String email, List<String> allRepositories, HashMap<String, Double> overallLangStats)
+    // should be HashMap
+    public MessageGeneratorImpl(String email, List<String> allRepositories, Map<String, Double> overallLangStats)
     {
         this.email = email;
         this.allRepositories = allRepositories;
