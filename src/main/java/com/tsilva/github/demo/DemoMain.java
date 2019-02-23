@@ -26,5 +26,8 @@ public class DemoMain
 
         System.out.println("== global stats ==");
         System.out.println(messageProcessingService.getGlobalStatistics());
+
+        System.out.println("== file content ==");
+        System.out.println(new FileImpl(DemoData.REPO, DemoData.FILE).getFileContent());
     }
 }

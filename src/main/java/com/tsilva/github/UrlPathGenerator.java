@@ -10,5 +10,5 @@ public interface UrlPathGenerator
 
     public String getRepositoryContentListURL(String owner, String repo);
 
-    public String getRepositoryFileContentURL(String owner, String repo, String file);
+    public String getRepositoryFileContentURL(String owner, String repo, String filePath);
 }

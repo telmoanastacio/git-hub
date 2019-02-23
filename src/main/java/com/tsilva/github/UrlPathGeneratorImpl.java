@@ -26,8 +26,8 @@ public class UrlPathGeneratorImpl implements UrlPathGenerator
         return API_URL + "/repos/" + owner + "/" + repo + "/contents";
     }
 
-    public String getRepositoryFileContentURL(String owner, String repo, String file)
+    public String getRepositoryFileContentURL(String owner, String repo, String filePath)
     {
-        return API_URL + "/repos/" + owner + "/" + repo + "/contents/" + file;
+        return API_URL + "/repos/" + owner + "/" + repo + "/contents/" + filePath;
     }
 }
