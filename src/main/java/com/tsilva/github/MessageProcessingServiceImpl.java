@@ -5,7 +5,7 @@ import com.tsilva.github.demo.DemoData;
 import java.util.List;
 import java.util.Map;
 
-public class MessageProcessingServiceImpl
+public class MessageProcessingServiceImpl implements MessageProcessingService
 {
     // == variables ==
     UrlPathGenerator urlPathGenerator = new UrlPathGeneratorImpl();
