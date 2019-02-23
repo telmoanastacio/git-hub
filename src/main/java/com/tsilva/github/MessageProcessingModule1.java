@@ -6,16 +6,13 @@ import org.json.JSONObject;
 
 import java.util.*;
 
-public class MessageProcessingImpl
+public class MessageProcessingModule1
 {
     private final String JSON_STRING;
 
-    public MessageProcessingImpl(String jsonString)
+    public MessageProcessingModule1(String jsonString)
     {
         this.JSON_STRING = jsonString;
-        System.out.println("=== JSON string ===");
-        System.out.println(jsonString);
-        System.out.println("===================");
     }
 
     public String getEmail()
@@ -58,7 +55,7 @@ public class MessageProcessingImpl
 
     public Map<String, Integer> getStatistics()
     {
-        Map<String, Integer> stats = new LinkedHashMap<>();
+        Map<String, Integer> stats = new HashMap<>();
         Set<String> keys;
         Integer value = -1;
         try
@@ -78,21 +75,5 @@ public class MessageProcessingImpl
             System.out.println("== parsing exception ==");
             return null;
         }
-    }
-
-    // sort only the global statistics
-    private static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(Map<K, V> map)
-    {
-        List<Map.Entry<K, V>> list = new ArrayList<>(map.entrySet());
-        list.sort(Map.Entry.comparingByValue());
-
-        Map<K, V> result = new LinkedHashMap<>();
-        for(int i = list.size() - 1; i >= 0; i-- ) /*(Map.Entry<K, V> entry : list)*/
-        {
-            Map.Entry<K, V> entry = list.get(i);
-            result.put(entry.getKey(), entry.getValue());
-        }
-
-        return result;
     }
 }
