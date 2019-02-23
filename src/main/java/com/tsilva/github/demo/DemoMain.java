@@ -40,6 +40,6 @@ public class DemoMain
 //        System.out.println(new MessageProcessingModule1(repoResult).getStatistics());
 
         Map<String, Integer> globalStatsResult = globalStats.getGlobalStatistics();
-        System.out.println(globalStats);
+        System.out.println(globalStatsResult);
     }
 }
