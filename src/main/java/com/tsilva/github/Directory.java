@@ -6,5 +6,5 @@ public interface Directory
 {
     public String getPATH();
 
-    public List<Object> getLAYER();
+    public List<Object> getLayer();
 }

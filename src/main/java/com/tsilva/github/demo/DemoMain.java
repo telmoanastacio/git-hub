@@ -29,5 +29,9 @@ public class DemoMain
 
         System.out.println("== file content ==");
         System.out.println(new FileImpl(DemoData.REPO, DemoData.FILE).getFileContent());
+
+        System.out.println("== directory layer ==");
+        Directory directory = new DirectoryImpl(DemoData.REPO, "");
+        System.out.println("Path: " + directory.getPATH() + "\nLayer: " + directory.getLayer());
     }
 }
