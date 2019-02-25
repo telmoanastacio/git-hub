@@ -4,6 +4,7 @@ import com.tsilva.MessageProcessingService;
 import com.tsilva.MessageProcessingServiceImpl;
 import com.tsilva.demo.DemoData;
 import com.tsilva.util.AttributeNames;
+import com.tsilva.util.ViewNames;
 import com.tsilva.util.WebMappings;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -45,6 +46,6 @@ public class WebController
         LOG.info("repositories = {}", repositoriesList);
         model.addAttribute(AttributeNames.REPOSITORIES_LIST, repositoriesList);
 
-        return WebMappings.REPOS;
+        return ViewNames.REPOS;
     }
 }

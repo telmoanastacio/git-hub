@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7a03a02-f386-4f4e-8ffb-a437fc09dc30" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/tsilva/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/tsilva/controller/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/tsilva/util/GameMappings.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/tsilva/util/WebMappings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/repos.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/repos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/tsilva/WebMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/tsilva/WebMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/tsilva/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/tsilva/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/tsilva/service/GitHubService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/tsilva/service/GitHubServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/tsilva/util/GameMappings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/tsilva/util/ViewNames.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/tsilva/util/ViewNames.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/repos.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/templates/repos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/tsilva/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/tsilva/controller/WebController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,8 +42,8 @@
       <file leaf-file-name="WebController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/com/tsilva/controller/WebController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="35" column="71" lean-forward="true" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
+            <state relative-caret-position="479">
+              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +66,8 @@
       <file leaf-file-name="repos.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/repos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="306">
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -888,15 +871,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/repos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="306">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/tsilva/controller/WebController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="35" column="71" lean-forward="true" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
+        <state relative-caret-position="479">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
