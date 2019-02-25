@@ -21,23 +21,23 @@ public class MessageProcessingServiceImpl implements MessageProcessingService
 
     // == public methods ==
     // email
-    public String getEmail()
+    public String getEmail(String user)
     {
-        String userResult = userContent.urlRead(urlPathGenerator.getUserInfoUrl(DemoData.USER));
+        String userResult = userContent.urlRead(urlPathGenerator.getUserInfoUrl(user));
         return new MessageProcessingModule1(userResult).getEmail();
     }
 
     // public repos
-    public List<String> getRepos()
+    public List<String> getRepos(String user)
     {
-        String userReposResult = userReposContent.urlRead(urlPathGenerator.getUserRepositoryListUrl(DemoData.USER));
+        String userReposResult = userReposContent.urlRead(urlPathGenerator.getUserRepositoryListUrl(user));
         return new MessageProcessingModule1(userReposResult).getRepos();
     }
 
     // global stats
-    public Map<String, Integer> getGlobalStatistics()
+    public Map<String, Integer> getGlobalStatistics(String user)
     {
-        Map<String, Integer> globalStatsResult = globalStats.getGlobalStatistics();
+        Map<String, Integer> globalStatsResult = globalStats.getGlobalStatistics(user);
         return globalStatsResult;
     }
 }

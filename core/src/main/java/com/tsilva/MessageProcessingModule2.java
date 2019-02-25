@@ -9,13 +9,13 @@ public class MessageProcessingModule2
     public MessageProcessingModule2()
     {}
 
-    public Map<String, Integer> getGlobalStatistics()
+    public Map<String, Integer> getGlobalStatistics(String user)
     {
         UrlPathGenerator urlPathGenerator = new UrlPathGeneratorImpl();
 
         UrlContentReader userReposContent = new UrlContentReaderImpl();
 
-        String userRepos = userReposContent.urlRead(urlPathGenerator.getUserRepositoryListUrl(DemoData.USER));
+        String userRepos = userReposContent.urlRead(urlPathGenerator.getUserRepositoryListUrl(user));
         List<String> repos = new MessageProcessingModule1(userRepos).getRepos();
         userRepos = null;
 
@@ -24,7 +24,7 @@ public class MessageProcessingModule2
         for(String repo : repos)
         {
             String repoResult = new UrlContentReaderImpl()
-                    .urlRead(urlPathGenerator.getRepositoryLanguageStatisticsUrl(DemoData.OWNER, repo));
+                    .urlRead(urlPathGenerator.getRepositoryLanguageStatisticsUrl(user, repo));
             Map<String, Integer> auxMap = new MessageProcessingModule1(repoResult).getStatistics();
             for(String key : auxMap.keySet())
             {

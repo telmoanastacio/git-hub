@@ -1,9 +1,6 @@
 package com.tsilva.demo;
 
-import com.tsilva.Base64DecoderImpl;
-import com.tsilva.FileImpl;
-import com.tsilva.UrlPathGenerator;
-import com.tsilva.UrlPathGeneratorImpl;
+import com.tsilva.*;
 
 public class DemoMain
 {
@@ -19,23 +16,23 @@ public class DemoMain
         System.out.println(urlPathGenerator.getRepositoryFileContentURL(DemoData.OWNER, DemoData.REPO, DemoData.FILE));
         // =============================
 
-//        MessageProcessingService messageProcessingService = new MessageProcessingServiceImpl();
-//
-//        System.out.println("== email ==");
-//        System.out.println(messageProcessingService.getEmail());
-//
-//        System.out.println("== repos ==");
-//        System.out.println(messageProcessingService.getRepos());
-//
-//        System.out.println("== global stats ==");
-//        System.out.println(messageProcessingService.getGlobalStatistics());
+        MessageProcessingService messageProcessingService = new MessageProcessingServiceImpl();
+
+        System.out.println("== email ==");
+        System.out.println(messageProcessingService.getEmail(DemoData.USER));
+
+        System.out.println("== repos ==");
+        System.out.println(messageProcessingService.getRepos(DemoData.OWNER));
+
+        System.out.println("== global stats ==");
+        System.out.println(messageProcessingService.getGlobalStatistics(DemoData.USER));
 
         System.out.println("== file content ==");
         System.out.println(new Base64DecoderImpl()
                 .getDecodedContent(new FileImpl(DemoData.REPO, DemoData.FILE).getFileContent()));
 
-//        System.out.println("== directory layer ==");
-//        Directory directory = new DirectoryImpl(DemoData.REPO, "");
-//        System.out.println("Path: " + directory.getPATH() + "\nLayer: " + directory.getLayer());
+        System.out.println("== directory layer ==");
+        Directory directory = new DirectoryImpl(DemoData.REPO, "");
+        System.out.println("Path: " + directory.getPATH() + "\nLayer: " + directory.getLayer());
     }
 }

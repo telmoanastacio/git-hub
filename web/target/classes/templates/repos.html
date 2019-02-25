@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>USER REPOS</title>
+    </head>
+    <body>
+        <div align="left">
+            <h4>User email:</h4>
+            <p th:text="User email">User email</p>
+
+            <h4>Global stats:</h4>
+            <p th:text="Global stats">Global stats</p>
+
+            <h4>Select a repository from below</h4>
+            <table>
+                <!-- cycle list -->
+                <!-- fragment begin  -->
+                <tr th:each="repo : reposList">
+                    <td>
+                        <!-- If selected a dir href="explore.html" -->
+                        <a th:href="explore.html"
+                            th:text="Repo name" >
+                            Repo name
+                        </a>
+                    </td>
+                </tr>
+                <!-- fragment end  -->
+            </table>
+
+            <hr>
+
+            <a href="home.html">Return home</a>
+        </div>
+    </body>
+</html>

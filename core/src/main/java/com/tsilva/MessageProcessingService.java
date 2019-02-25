@@ -5,9 +5,9 @@ import java.util.Map;
 
 public interface MessageProcessingService
 {
-    public String getEmail();
+    String getEmail(String user);
 
-    public List<String> getRepos();
+    List<String> getRepos(String user);
 
-    public Map<String, Integer> getGlobalStatistics();
+    Map<String, Integer> getGlobalStatistics(String user);
 }
