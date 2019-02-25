@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
     <head>
         <meta charset="UTF-8">
         <title>Home</title>
@@ -9,7 +9,9 @@
             <h2>Welcome!</h2>
             <h4>Here you can explore somebody git-hub and view files content.</h4>
 
-            <form action="repos.html" method="GET" >
+            <form th:action="@{__${T(com.tsilva.util.WebMappings).REPOS}__}"
+                  action="repos"
+                  method="POST" >
                 <label>Insert a known git-hub name:</label>
                 <input id="username" name="username" type="text" placeholder="telmoanastacio" />
                 <input type="submit" value="Submit" />

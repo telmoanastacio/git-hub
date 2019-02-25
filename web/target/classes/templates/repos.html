@@ -7,25 +7,30 @@
     <body>
         <div align="left">
             <h4>User email:</h4>
-            <p th:text="User email">User email</p>
+            <p th:text="${__${T(com.tsilva.util.AttributeNames).EMAIL}__}">User email</p>
 
             <h4>Global stats:</h4>
-            <p th:text="Global stats">Global stats</p>
-
-            <h4>Select a repository from below</h4>
             <table>
-                <!-- cycle list -->
-                <!-- fragment begin  -->
-                <tr th:each="repo : reposList">
+                <tr th:each="key : ${__${T(com.tsilva.util.AttributeNames).GLOBAL_STATISTICS}__.keySet()}">
+                    <td th:text="${key}">
+                        language
+                    </td>
+                    <td th:text="${__${T(com.tsilva.util.AttributeNames).GLOBAL_STATISTICS}__.get(key)}">
+                        language
+                    </td>
+                </tr>
+            </table>
+
+            <h4>Select a repository from below:</h4>
+            <table>
+                <tr th:each="repo : ${__${T(com.tsilva.util.AttributeNames).REPOSITORIES_LIST}__}">
                     <td>
-                        <!-- If selected a dir href="explore.html" -->
-                        <a th:href="explore.html"
-                            th:text="Repo name" >
+                        <a th:href="'explore?repo=' + ${repo}"
+                            th:text="${repo}" >
                             Repo name
                         </a>
                     </td>
                 </tr>
-                <!-- fragment end  -->
             </table>
 
             <hr>

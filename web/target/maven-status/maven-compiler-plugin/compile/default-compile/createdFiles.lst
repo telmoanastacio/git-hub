@@ -1,6 +1,5 @@
 com\tsilva\WebMain.class
-com\tsilva\service\GitHubServiceImpl.class
-com\tsilva\util\GameMappings.class
+com\tsilva\controller\WebController.class
 com\tsilva\util\ViewNames.class
 com\tsilva\config\WebConfig.class
-com\tsilva\service\GitHubService.class
+com\tsilva\util\WebMappings.class
