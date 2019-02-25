@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7a03a02-f386-4f4e-8ffb-a437fc09dc30" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/tsilva/MessageProcessingModule2.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/tsilva/MessageProcessingModule2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/tsilva/MessageProcessingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/tsilva/MessageProcessingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/tsilva/MessageProcessingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/tsilva/MessageProcessingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/tsilva/UrlContentReaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/tsilva/UrlContentReaderImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/tsilva/demo/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/tsilva/demo/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/tsilva/MessageProcessingModule2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/tsilva/MessageProcessingModule2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/tsilva/MessageProcessingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/tsilva/MessageProcessingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/tsilva/MessageProcessingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/tsilva/MessageProcessingServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/tsilva/UrlContentReaderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/tsilva/UrlContentReaderImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/tsilva/demo/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/tsilva/demo/DemoMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/tsilva/service/GitHubService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/tsilva/service/GitHubService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/tsilva/WebMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/tsilva/WebMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/fragments/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/fragments/footer.th.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/fragments/head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/fragments/head.th.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/game-over.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/game-over.th.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/home.th.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/play.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/play.th.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.jar.original" afterDir="false" />
-    </list>
+    <list default="true" id="b7a03a02-f386-4f4e-8ffb-a437fc09dc30" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/olk/target/" />
@@ -47,108 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GitHubService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/tsilva/service/GitHubService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Directory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/tsilva/Directory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DirectoryImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/tsilva/DirectoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/tsilva/FileImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="File.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/tsilva/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageProcessingService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MessageProcessingService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/tsilva/MessageProcessingService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageProcessingServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/tsilva/MessageProcessingServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageProcessingModule2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/tsilva/MessageProcessingModule2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/tsilva/demo/DemoMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="31" selection-end-column="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GitHubServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/tsilva/service/GitHubServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -257,9 +129,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1270" />
-    <option name="width" value="1301" />
-    <option name="height" value="1565" />
+    <option name="x" value="1357" />
+    <option name="y" value="231" />
+    <option name="width" value="1302" />
+    <option name="height" value="1566" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -386,17 +259,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="tsilva" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-hub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-hub" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tsilva" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git-hub" type="b2602c69:ProjectViewProjectNode" />
@@ -807,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/tsilva/demo/DemoMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="31" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/tsilva/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -841,15 +696,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/tsilva/MessageProcessingServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
+        <state relative-caret-position="447">
           <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/tsilva/MessageProcessingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -883,6 +731,20 @@
             <element signature="e#401#402#0" expanded="true" />
             <element signature="e#428#429#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/tsilva/demo/DemoMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="31" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/tsilva/MessageProcessingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="58" />
         </state>
       </provider>
     </entry>
