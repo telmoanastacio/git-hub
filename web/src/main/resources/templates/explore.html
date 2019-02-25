@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Directory Name</title>
+    </head>
+    <body>
+        <div align="left">
+            <h4>Select a link from below</h4>
+            <table>
+                <tr>
+                    <td>
+                        <!-- If selected a dir href="explore.html" -->
+                        <a th:href="code.html"
+                           th:text="File or dir name" >
+                            File or dir name
+                        </a>
+                    </td>
+                </tr>
+            </table>
+
+            <hr>
+
+            <a href="home.html">Return home</a>
+        </div>
+    </body>
+</html>
