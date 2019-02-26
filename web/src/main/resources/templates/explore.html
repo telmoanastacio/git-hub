@@ -6,7 +6,8 @@
     </head>
     <body>
         <div align="left">
-            <h4>Select a link from below</h4>
+            <h4>Select a link from below</h4><br>
+            <h4>FILES:</h4>
             <table>
                 <tr th:each="file : ${__${T(com.tsilva.util.AttributeNames).FILES_LIST}__}">
                     <td>
@@ -16,7 +17,12 @@
                         </a>
                     </td>
                 </tr>
+            </table>
 
+            <hr>
+
+            <h4>DIRECTORIES:</h4>
+            <table>
                 <tr th:each="directory : ${__${T(com.tsilva.util.AttributeNames).DIRECTORIES_LIST}__}">
                     <td>
                         <a th:href="'explore?directory=' + ${directory.getPATH()}"
