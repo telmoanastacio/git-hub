@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7a03a02-f386-4f4e-8ffb-a437fc09dc30" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/tsilva/demo/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/tsilva/demo/DemoMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/java/com/tsilva/controller/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/tsilva/controller/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/tsilva/util/AttributeNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/tsilva/util/AttributeNames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/explore.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/explore.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/tsilva/controller/WebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/tsilva/controller/WebController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/tsilva/util/AttributeNames.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/tsilva/util/AttributeNames.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/explore.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/templates/explore.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +30,8 @@
       <file leaf-file-name="WebController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/com/tsilva/controller/WebController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="77" column="62" selection-start-line="77" selection-start-column="62" selection-end-line="77" selection-end-column="62" />
+            <state relative-caret-position="751">
+              <caret line="93" column="77" selection-start-line="93" selection-start-column="77" selection-end-line="93" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +82,8 @@
       <file leaf-file-name="explore.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/explore.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="357">
+              <caret line="21" column="54" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -137,6 +130,7 @@
     <findStrings>
       <find>HashMap</find>
       <find>DemoData</find>
+      <find>REPO:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,8 +196,8 @@
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/repos.html" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/tsilva/demo/DemoMain.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/tsilva/util/AttributeNames.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/tsilva/controller/WebController.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/explore.html" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/tsilva/controller/WebController.java" />
       </list>
     </option>
   </component>
@@ -849,15 +843,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/explore.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="357">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/tsilva/controller/WebController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="77" column="62" selection-start-line="77" selection-start-column="62" selection-end-line="77" selection-end-column="62" />
+        <state relative-caret-position="751">
+          <caret line="93" column="77" selection-start-line="93" selection-start-column="77" selection-end-line="93" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

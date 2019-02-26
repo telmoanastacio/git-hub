@@ -24,6 +24,7 @@ public class WebController
     // == fields ==
     private static final Logger LOG = LoggerFactory.getLogger(WebController.class);
     private static String user;
+    private static String repo;
 
     // == constructors ==
     @Autowired
@@ -51,12 +52,25 @@ public class WebController
     }
 
     @GetMapping(WebMappings.EXPLORE)
-    public String explore(@RequestParam String repo, Model model)
+    public String explore(
+            @RequestParam(required = false) String repo, @RequestParam(required = false) String directory, Model model)
     {
-        LOG.info("repo = {}", repo);
-        Directory directory = new DirectoryImpl(repo, "");
-        // TODO: Split in a list of files and a list of dirs and pass to the model individually
-        List<Object> layer = directory.getLayer();
+        if(!(repo == null))
+        {
+            this.repo = repo;
+            System.out.println("REPO: " + this.repo);
+        }
+        LOG.info("repo = {}", this.repo);
+        Directory currentDirectory;
+        if(!(directory == null))
+        {
+            currentDirectory = new DirectoryImpl(this.repo, directory);
+        }
+        else
+        {
+            currentDirectory = new DirectoryImpl(this.repo, "");
+        }
+        List<Object> layer = currentDirectory.getLayer();
         List<File> filesList = new LinkedList<>();
         List<Directory> directoriesList = new LinkedList<>();
         for(Object fileOrDir : layer)
@@ -78,12 +92,6 @@ public class WebController
         LOG.info("{} directories = {}", directoriesList.size(), directoriesList);
         model.addAttribute(AttributeNames.FILES_LIST, filesList);
         model.addAttribute(AttributeNames.DIRECTORIES_LIST, directoriesList);
-
-//         ((FileImpl) layer.get(0)).getPATH();
-//         ((DirectoryImpl) layer.get(0)).getPATH();
-
-//        System.out.println(layer.get(0).getClass().getName().equals("com.tsilva.FileImpl"));
-//        System.out.println(layer.get(0).getClass().getName().equals("com.tsilva.DirectoryImpl"));
 
         return ViewNames.EXPLORE;
     }
