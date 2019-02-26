@@ -1,7 +1,6 @@
 package com.tsilva.controller;
 
 import com.tsilva.*;
-import com.tsilva.demo.DemoData;
 import com.tsilva.util.AttributeNames;
 import com.tsilva.util.ViewNames;
 import com.tsilva.util.WebMappings;
@@ -94,5 +93,24 @@ public class WebController
         model.addAttribute(AttributeNames.DIRECTORIES_LIST, directoriesList);
 
         return ViewNames.EXPLORE;
+    }
+
+    @GetMapping(WebMappings.CODE)
+    public String code(@RequestParam String file, Model model)
+    {
+        String fileContent = new Base64DecoderImpl()
+                .getDecodedContent(new FileImpl(this.repo, file).getFileContent());
+        model.addAttribute(AttributeNames.FILE_CONTENT, fileContent);
+
+        return ViewNames.CODE;
+    }
+
+    @GetMapping(WebMappings.HOME)
+    public String home()
+    {
+        this.user = null;
+        this.repo = null;
+
+        return ViewNames.HOME;
     }
 }

@@ -8,7 +8,7 @@ public final class AttributeNames
     public static final String REPOSITORIES_LIST = "repositoriesList";
     public static final String FILES_LIST = "filesList";
     public static final String DIRECTORIES_LIST = "directoriesList";
-    public static final String LAYER = "layer";
+    public static final String FILE_CONTENT = "fileContent";
 
     // == constructor ==
     private AttributeNames() {}
