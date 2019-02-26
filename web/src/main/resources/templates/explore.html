@@ -8,18 +8,23 @@
         <div align="left">
             <h4>Select a link from below</h4>
             <table>
-                <!-- cycle list -->
-                <!-- fragment begin  -->
-                <tr th:each="fileOrDir : fileAndDirList">
+                <tr th:each="file : ${__${T(com.tsilva.util.AttributeNames).FILES_LIST}__}">
                     <td>
-                        <!-- If selected a dir href="explore.html" -->
-                        <a th:href="code.html"
-                           th:text="File or dir name" >
-                            File or dir name
+                        <a th:href="'code?file=' + ${file.getPATH()}"
+                           th:text="${file.getPATH()}" >
+                            File
                         </a>
                     </td>
                 </tr>
-                <!-- fragment end  -->
+
+                <tr th:each="directory : ${__${T(com.tsilva.util.AttributeNames).DIRECTORIES_LIST}__}">
+                    <td>
+                        <a th:href="'explore?directory=' + ${directory.getPATH()}"
+                           th:text="${directory.getPATH()}" >
+                            File
+                        </a>
+                    </td>
+                </tr>
             </table>
 
             <hr>
